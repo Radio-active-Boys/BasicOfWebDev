@@ -1,0 +1,22 @@
+@media screen and (max-width:1000px) {
+    .container{
+        width:850px;
+        border: 2px solid blue;
+        margin:auto;
+        padding: 10px;
+    
+    }
+    
+    .box{
+        text-align: center;
+        width: 250px;
+        height: 250px;
+        background-color: brown;
+        display: inline-block;
+        margin: 10px;
+    
+    }
+    .head{
+        text-align: center;
+    }
+}

@@ -1,0 +1,13 @@
+.box{
+    text-align: center;
+    color:blueviolet ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    border: 3px solid rgb(10, 60, 90);
+    width: 200px;
+    height: 200px;
+    padding: 3px  ;
+    padding: 50px 75px 50px 75px;
+    margin: 100px 200px;
+    
+}

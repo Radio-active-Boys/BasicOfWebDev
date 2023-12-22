@@ -1,0 +1,50 @@
+.main-nav {
+    background-color: aqua;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px 10px 20px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+li{
+    margin : auto;
+}
+
+body{
+    margin: auto 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.flexContainer{
+    background-color: chocolate;
+    display: flex;
+    align-items: center;;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Container{
+    background-color: cornflowerblue;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px 10px 20px;
+    display: grid;
+    grid-template : 1fr/repeat(auto-fit,minmax(200px,1fr));
+    grid-gap: 20px;
+    padding: 20px;
+
+}
+
+.box{
+    margin: 20px;
+    padding: 20px;
+    background-color: crimson;
+
+    
+}
+
+.box > img{
+    width : 100%;
+}

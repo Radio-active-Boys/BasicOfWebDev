@@ -1,0 +1,20 @@
+.box{
+    width:900px;
+    height:500px;
+    border : 5px solid rgb(0,255,0);
+
+}
+.img{
+    width : "100px";
+     height:"300px";
+}
+.heading{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color : rgb(255,0,2);      
+
+}
+.para{
+    font-family: 'Courier New', Courier, monospace;
+     
+}

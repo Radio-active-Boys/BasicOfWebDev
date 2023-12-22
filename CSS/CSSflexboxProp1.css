@@ -1,0 +1,37 @@
+.flexbox{
+    border: 5px solid rgb(213, 31, 255);
+
+    /*display flex {row or column)*/
+        display: flex;
+        flex-direction: row;
+
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(64, 210, 56);
+    /*order is used to show which is going to be first,second,third,soon*/
+    order: 2;
+
+    /*flex grow is used for to fullfill the entire coinatiner it has four values 1,2,3,4*/
+    flex-grow: 2;
+
+    /*flex shrink how fast box area decreases*/
+    flex-shrink: 2;
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(31, 76, 208);
+    order: 3;
+    flex-grow: 3;
+    flex-shrink: 3;
+}
+.box3{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(213, 31, 116);
+    order: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+}

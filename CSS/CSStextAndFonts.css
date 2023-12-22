@@ -1,0 +1,17 @@
+h1{
+    font-family: "Times New Roman";
+}
+
+#idP1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+#idP2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /*1em = 16px {default size ot text in browser}*/
+    font-size: 1.5em;
+}
+.txtBold{
+    font-weight: bold;
+    font-style: italic;
+}

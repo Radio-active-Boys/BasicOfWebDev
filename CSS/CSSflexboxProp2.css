@@ -1,0 +1,31 @@
+/* .cont{
+    display: flex;
+     flex-direction: row;
+    flex-wrap:wrap-reverse; 
+    {flex-flow can manage both together} 
+    
+    flex-flow: row wrap;
+
+}
+.box{
+    border: 5px solid red;
+    padding: 5px;
+    flex-basis: 60%;
+    flex-grow: 0;
+    flex-shrink: 0;
+} */
+
+.flexContainer{
+    background-color: blue;
+    height: 200px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.item{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(42, 165, 83);
+    border: 3px solid red;
+}

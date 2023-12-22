@@ -1,0 +1,43 @@
+h1{
+    color:red;
+    text-align: center;
+
+
+    background: rgb(31, 135, 151);
+    
+
+
+    /* border-color: black;
+    border-width: 4px;
+    border-style: solid; */
+    border : 2px dashed yellow;
+    
+    
+}
+h2{
+    color: #FF0000
+}
+h3{
+    color: rgb(255,0,0);
+}
+title{
+    color:rgb(255,0,0);
+}
+body{
+    background: url(https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4wHfl?ver=6687);
+    
+}
+
+/* concept of ID {apply for only one page}*/
+#ID{
+    background: rgb(9, 31, 34);
+}
+#ID2{
+    background: rgb(68, 189, 205);
+}
+
+/* concept of class {apply every where} */
+.CLASS{
+    border: 3px dashed rgb(55, 55, 18) ;
+
+}   

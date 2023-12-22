@@ -1,0 +1,60 @@
+.container{
+    border: 2px solid rebeccapurple;
+
+    padding: 10px;
+    display:grid;
+    /* grid-template: 100px 200px 300px / repeat(3,1fr); */
+    /* grid-template: repeat(3,50px) / repeat(3,50px); */
+    grid-template: 1fr / repeat(auto-fill,minmax(200px,1fr));
+    grid-gap: 10px;
+    height: 700px;
+    /* grid-template-areas: "A B C"
+                         "D E F"
+                         "G H I"
+                         ; */
+    /* justify-items: center; 
+    align-items: center; */
+    /* place-items: start end; */
+    /* align-content: start/end/center/space-between/space-evenly;
+    align-content: center; */
+    /* justify-content: start/end/center/space-between/space-evenly;
+    justify-content: space-between; */
+
+
+}   
+
+.box{
+    background-color: chocolate;
+    border: 2px solid black;
+    
+}
+/* .box1{
+    grid-area: A;
+}
+.box2{
+    grid-area: B;
+}
+.box3{
+    grid-area: C;
+    /* align-self: center;
+    justify-self: center; */
+    /* place-self: center; */
+/* }
+.box4{
+    grid-area: D;
+}
+.box5{
+    grid-area: E;
+}
+.box6{
+    grid-area: F;
+}
+.box7{
+    grid-area: G;
+}
+.box8{
+    grid-area: H;
+}
+.box9{
+    grid-area: I;
+} */ 
